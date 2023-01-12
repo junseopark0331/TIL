@@ -1,0 +1,1 @@
+### 클로저는 ```Named Closure``` , ```Unnamed Closure``` 로 나뉩니다
