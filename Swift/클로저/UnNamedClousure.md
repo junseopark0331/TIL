@@ -1,1 +1,1 @@
-### UnNamedClosure란! 보통 저희가 사용하는 클로를 말해요!
+### UnNamedClosure란! 보통 저희가 사용하는 클로저를 말해요!
