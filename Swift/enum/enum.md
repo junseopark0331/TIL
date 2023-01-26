@@ -12,7 +12,18 @@ enum major{
 }
 
 ```
-위와 같이 나타낼 수 있어요!
+위와 같이 열거형을 정의할 수 있어요!
+또는
+```swift
+enum major{
+    case iOS, Android, Frontend, Backend
+}
+
+```
+위와 같이 적어줄 수도 있어요!
+
+
+
 
 
 
