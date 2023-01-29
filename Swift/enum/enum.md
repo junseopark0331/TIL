@@ -26,7 +26,11 @@ enum major{
 . (점문법)을 이용해 자신이 선언한 case에 대해 접근을 할 수 있어요!
 위의 방법을 사용하면 오타의 가능성 ⬇, 코드의 가독성 ⬆
 
-e
+위의 case를 지정할 때, 저희는 아무 값도 대입하지 않았었어요.
+이 case에도 원시값을 정해줄 수 있는데 이때의 원시값을 **Raw Value**라고 합니다! 
+이때 Raw Value가 될 수 있는 자료형은 
+``` Number Type, Character Type, String Type```으로 
+총 3가지가 있어요! 
 
 
 
