@@ -32,7 +32,16 @@ enum major{
 ``` Number Type, Character Type, String Type```으로 
 총 3가지가 있어요! 
 
+### Number Type
+```swift 
+enum Major: Int{
 
-
+    case iOS // 0
+    case Android // 1
+    case Frontend // 2
+    case Backend // 3
+}
+```
+이렇게 아무값을 설정해주지 않으면 0부터 시작되어 그전 case로부터 1씩 추가된 값이 설정됩니다!
 
 인용 : https://babbab2.tistory.com/116
