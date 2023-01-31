@@ -44,4 +44,5 @@ enum Major: Int{
 ```
 이렇게 아무값을 설정해주지 않으면 0부터 시작되어 그전 case로부터 1씩 추가된 값이 설정됩니다!
 
+dfff
 인용 : https://babbab2.tistory.com/116
