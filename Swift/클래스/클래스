@@ -68,10 +68,8 @@ class Junseo{
 
 ### 클래스의 초기화
 
-속성(프로퍼티)들의 기본값을 딱 하나로! 정해줄기엔 애매할 때 
-init 이라는 메서드를 사용할 수 있어요. 
-init 메서드 안의 self는 자기 자신을 가리키는 값으로 인스턴스를 만들어 
-속성(프로퍼티)의 값을 지정해주고 사용을 하면 됩니다!
+속성(프로퍼티)들의 기본값을 딱 하나로! 정해줄기엔 애매할 때 init 이라는 메서드를 사용할 수 있어요. 
+init 메서드 안의 self는 자기 자신을 가리키는 값으로 인스턴스를 만들어 속성(프로퍼티)의 값을 지정해주고 사용을 하면 됩니다!
 
 ```swift
 class Junseo{
@@ -102,7 +100,7 @@ class Junseo{
 
 ### 클래스의 상속
 ```swift
-class 새로 만들어줄 클래스 이름 : 상속받을 슈퍼클래스 이름{
+class 새로 만든 클래스 이름 : 상속받을 슈퍼클래스 이름{
     코드
 } 
 ```
@@ -123,10 +121,21 @@ class Age : Junseo{
 
     var age = 18
 
-    func introduction
+    func introduction2(){
+        print("My name is \(name) and I am \(age)years old.")
+    }
+
+    let Park: Age = Age()
+    Park.introduction2 // My name is Junseo and I am 18 years old.
 }
+```
+새로 만든 클래스 이름 : **Age**
+슈퍼 클래스 이름 : **Junseo**
+인것을 알 수 있어요!
 
-
+이렇게 Age라는 새로운 클래스를 만들어준 뒤, Junseo라는 슈퍼클래스에서
+ 상속받게끔 만들어주면 슈퍼클래스의 속성(프로퍼티)인 name을 사용할 수 있습니다!
+다만 슈퍼클래스인 Junseo 클래스에서는 Age 클래스의 속성(프로퍼티)이나 메서드를 사용하지 못해요.
 
 
 출처 : https://velog.io/@wook4506/iOS-Swift-Swift-문법을-알아보자-7편-클래스-Class
