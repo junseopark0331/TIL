@@ -2,5 +2,131 @@
 
 Swift 에서는 클래스를 정의해 객체를 만들고, 사용할 수 있습니다! 
 
+클래스 안의 **변수**는 **속성(프로퍼티)**, 
+클래스 안의 **함수**는 **메서드** 라고 부릅니다!
+
+클래스를 작성하는 방식은
+```swift
+class 클래스이름{
+    코드
+} 
+```
+이렇게 적어줄 수 있어요! 
+
+이렇게 하나의 클래스를 만들어 봤는데요,
+
+```swift
+class Junseo{
+
+    var name = "Junseo"
+
+    func introduction(){
+        print("My name is \(name). ")
+    }
+}
+```
+클래스 이름 : **Junseo**
+속성(프로퍼티) : **name**
+메서드 : **introduction**
+
+인 것을 알 수 있어요!
+
+클래스를 활용하기 위해서는 **인스턴스** 라는 것을 만들어줘야 하는데요,
+
+```swift
+class Junseo{
+
+    var name = "Junseo"
+
+    func introduction(){
+        print("My name is \(name). ")
+    }
+
+    let Park: Junseo = Junseo()
+}
+```
+
+이렇게 Park이라는 인스턴스를 하나 만들어줬어요!
+속성(프로퍼티)이나 메소드를 사용하려면 . 을 이용해서 접근할 수 있기 때문에
+
+```swift
+class Junseo{
+
+    var name = "Junseo"
+
+    func introduction(){
+        print("My name is \(name). ")
+    }
+
+    let Park: Junseo = Junseo()
+    print(Park.name) // Junseo
+    Park.introduction // My name is Junseo
+}
+```
+이렇게 .을 이용해서 출력을 할 수 있습니다 ! :)
+
+
+### 클래스의 초기화
+
+속성(프로퍼티)들의 기본값을 딱 하나로! 정해줄기엔 애매할 때 
+init 이라는 메서드를 사용할 수 있어요. 
+init 메서드 안의 self는 자기 자신을 가리키는 값으로 인스턴스를 만들어 
+속성(프로퍼티)의 값을 지정해주고 사용을 하면 됩니다!
+
+```swift
+class Junseo{
+
+    var name: String
+    var age: Int
+
+    init(name: String, age: Int){
+        self.name = name
+        self.age = age
+    }
+
+    func introduction(){
+        print("My name is \(name) and I am \(age) years old. ")
+    }
+
+    let Park1: Junseo = Junseo(name : "Junseo", age : "18")
+    let Park2: Junseo = Junseo(name : "Andreas331", age : "2")
+    Park1.introduction ()
+    // My name is Junseo and I am 18 years old.
+    Park2.introduction ()
+    // My name is Andreas331 and I am 2 years old.
+}
+```
+
+이렇게 Park1, Park2 라는 인스턴스를 만들어 introduction이라는 메서드를
+실행시켜보면 잘 출력되는 것을 확인할 수 있어요! 
+
+### 클래스의 상속
+```swift
+class 새로 만들어줄 클래스 이름 : 상속받을 슈퍼클래스 이름{
+    코드
+} 
+```
+과 같이 작성을 해주면 클래스를 상속받을 수 있어요!
+
+예를 들어서 설명을 해보면 
+```swift
+class Junseo{
+
+    var name = "Junseo"
+
+    func introduction(){
+        print("My name is \(name)")
+    }
+}
+
+class Age : Junseo{
+
+    var age = 18
+
+    func introduction
+}
+
+
+
 
 출처 : https://velog.io/@wook4506/iOS-Swift-Swift-문법을-알아보자-7편-클래스-Class
