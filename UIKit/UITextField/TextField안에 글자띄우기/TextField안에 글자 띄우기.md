@@ -3,7 +3,7 @@
 ```swift
 textField.placeholder = "원하는 글자"
 ```
-""안에 원하는 글자를 적으면 
+"" 안에 원하는 글자를 적으면 
  
  <img src="원하는글자 입력.png" width="400" height="100"/>
 
