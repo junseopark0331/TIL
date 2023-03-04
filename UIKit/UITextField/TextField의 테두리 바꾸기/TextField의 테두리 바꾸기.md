@@ -29,4 +29,4 @@ textField.borderStyle = .roundedRect
 
 와 같이 입력하면 이렇게 둥글게 테두리가 되어있는 걸 볼 수 있다.
 
-
+다른 테두리가 궁금하다면 https://boidevelop.tistory.com/62 이걸 참고해보면 좋을듯하다.
