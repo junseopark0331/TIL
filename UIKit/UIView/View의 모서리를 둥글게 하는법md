@@ -1,0 +1,10 @@
+# View의 모서리를 둥글게 하는 법
+
+```swift
+cornerView.clipsToBounds = true
+cornerView.layer.cornerRadius = ""
+```
+"" 안에 원하는 만큼의 숫자를 입력하면 View의 모서리가 둥글게 되는 걸 볼 수 있다.
+
+
+
