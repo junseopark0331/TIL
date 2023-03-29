@@ -24,3 +24,5 @@ extension UIColor {
 }
 
 ```
+
+위에 있는 코드들을 적으면 된다.
