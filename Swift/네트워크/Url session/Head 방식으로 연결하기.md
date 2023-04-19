@@ -1,7 +1,5 @@
 # Head 방식으로 연결하기
 
-
-
 ```swift
 extension IdSignupViewController{
     
