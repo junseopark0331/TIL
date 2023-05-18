@@ -5,3 +5,5 @@
 ```swift
 guard let encodedStr = connectURL.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
 ```
+
+또한 qr을 읽은 뒤, 디코딩작업을 해줘야 한글로 된 데이터를 잘 가져올 수 있다.
