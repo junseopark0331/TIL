@@ -9,3 +9,14 @@ OTP란? One Time Password의 약자로 무작위 번호연속 알고리즘에 �
 https://github.com/AbdelrhmanKamalEliwa/AEOTPTextField
 
 참고하면 좋을 라이브러리!
+
+```swift
+private let certificationNumberTextField = AEOTPTextField().then{
+        $0.otpFont = .I_A(size: 32, family: .regular)
+        $0.otpTextColor = UIColor(rgb: 0x767676)
+        $0.otpCornerRaduis = 5
+        $0.configure(with: 4)
+    }
+```
+
+위와 같이 사용하면 좋을 듯 하다!
