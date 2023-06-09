@@ -20,3 +20,5 @@ private let certificationNumberTextField = AEOTPTextField().then{
 ```
 
 위와 같이 사용하면 좋을 듯 하다!
+
+otp TextField를 만드는 영상을 봤는데 일반 텍스트필드 위에 원하는 수만큼의 라벨을 띄어 보여주는 방식이었다.
