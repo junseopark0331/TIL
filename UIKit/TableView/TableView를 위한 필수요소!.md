@@ -44,3 +44,5 @@ extension MovieListViewController: UITableViewDelegate {
 ```
 
 와 같이적어주면 다음에 넘어갈 ViewController를 알려줄 수 있다.
+
+tableView.reloadData()를 데이터를 초기화 할때마다 적어줘야 우리가 테이블 뷰가 새로고침 된다!
