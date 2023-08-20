@@ -1,7 +1,38 @@
 # guard와 if의 차이
 
-### guard
-guard구문은 함수나 메서드 혹은 반복문 안에서만 사용할 수 있다는 한계점이 있다. 
+## if
+
+### 작성방법
+
+```swift
+if 조건문 {
+    조건문 만족시 실행
+}
+```
+또는
+```swift
+if 조건문 {
+    조건문 만족시 실행
+} else {
+    조건문 불만족시 실행
+}
+```
+## guard
+
+### 작성방법
+
+```swift
+guard 조건문 else {
+    조건문 불만족시 실행
+    return
+} 
+조건 만족시 실행하는 식
+```
+
+- guard구문은 함수나 메서드 혹은 반복문 안에서만 사용할 수 있다는 한계점이 있다. 
+- guard문을 사용하면 항상 else문을 적어야한다.
+- guard의 else문에서는 항상 return, break, throw, continue로 종료시킨다.
+- 
 
 또한 
 ```swift
@@ -33,4 +64,4 @@ func solution() {
 
 두 함수 보다 condition3이 true이면 come in을 출력하는 식이다.
 
-이렇게 guard를 사용하면 식이 더 간편해진다는 장점이 있다.
+이렇게 guard를 사용하면 가독성이 더 좋아지는 장점이 있다.
