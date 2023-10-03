@@ -21,5 +21,4 @@ let nav = UINavigationController(rootViewController: TabbarViewController())
 
 UINavigationController 위에 또 UINavigationController이 쌓이다 보니 생긴듯...
 
-navigationTitle이 내가 생각하기보다 아래에 있다면 참고하면 좋을듯하다!
-
+navigationTitle이 내가 생각하기보다 아래에 있다면 참고하면 좋을듯하다 ㅎㅎ
