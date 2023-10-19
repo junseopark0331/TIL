@@ -92,7 +92,7 @@ struct ColorDetailView: View {
 }
 ```
 
-이건 내가 NavigationStack을 이용해서 만든 
+이건 내가 NavigationStack을 이용해서 만든 색깔
 
 
 
