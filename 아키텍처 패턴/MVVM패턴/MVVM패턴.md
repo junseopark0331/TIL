@@ -24,4 +24,4 @@ Model, View, ViewModel로 이루어진 아키텍처 패턴
 
 ### SwiftUI에서는 MVVM 사용을 하는게 손해일까??
 ViewModel의 존재는 선언적 UI 시대에 필요 없다. 
-SwiftUI의 MVVM은 APPLE이 공식적으로 추천한 방법이 아니다.
+SwiftUI의 MVVM은 APPLE이 공식적으로 추천한 방법이 아니기 때문에 다른 패턴을 찾아보는것도 좋을 듯 하다.
