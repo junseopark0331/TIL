@@ -5,7 +5,7 @@ Tap을 할때마다 사진이 작아지는 화면
 ```swift
 import SwiftUI
 
-struct FirstView: View {
+struct TapGestureView: View {
     
     @State private var scale: CGFloat = 1.0
     
@@ -21,9 +21,9 @@ struct FirstView: View {
 }
 
 
-struct FirstView_Previews: PreviewProvider {
+struct TapGesture_Previews: PreviewProvider {
     static var previews: some View {
-        FirstView()
+        TapGestureView()
     }
 }
 
