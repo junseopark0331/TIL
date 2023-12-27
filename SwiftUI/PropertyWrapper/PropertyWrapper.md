@@ -63,4 +63,3 @@ print(koreaHouse.apartment, koreaHouse.villa)
 ```
 
 이렇게 코드를 줄일 수 있다 !! (어머 너무 멋있어 🤩🤩)
-
